@@ -1,0 +1,87 @@
+/*--font for google--*/
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v15/vzIUHo9z-oJ4WgkpPOtg13YhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/CrYjSnGjrRCn0pd9VQsnFOvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUbO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+/*============ fonts for homepage==========*/
+@font-face {
+    font-family: 'nexa_bookregular';
+    src: url('../../dist/assets/fonts/nexa-book.eot');
+    src: url('../../dist/assets/fonts/nexa-book.eot?#iefix') format('embedded-opentype'),
+         url('../../dist/assets/fonts/nexa-book.woff2') format('woff2'),
+         url('../../dist/assets/fonts/nexa-book.woff') format('woff'),
+         url('../../dist/assets/fonts/nexa-book.ttf') format('truetype'),
+         url('../../dist/assets/fonts/nexa-book.svg#nexa_bookregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nexa_regularregular';
+    src: url('../../dist/assets/fonts/nexaregular.eot');
+    src: url('../../dist/assets/fonts/nexaregular.eot?#iefix') format('embedded-opentype'),
+         url('../../dist/assets/fonts/nexaregular.woff2') format('woff2'),
+         url('../../dist/assets/fonts/nexaregular.woff') format('woff'),
+         url('../../dist/assets/fonts/nexaregular.ttf') format('truetype'),
+         url('../../dist/assets/fonts/nexaregular.svg#nexa_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nexa_xboldregular';
+    src: url('../../dist/assets/fonts/nexa-xbold.eot');
+    src: url('../../dist/assets/fonts/nexa-xbold.eot?#iefix') format('embedded-opentype'),
+         url('../../dist/assets/fonts/nexa-xbold.woff2') format('woff2'),
+         url('../../dist/assets/fonts/nexa-xbold.woff') format('woff'),
+         url('../../dist/assets/fonts/nexa-xbold.ttf') format('truetype'),
+         url('../../dist/assets/fonts/nexa-xbold.svg#nexa_xboldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nexa_blackregular';
+    src: url('../../dist/assets/fonts/nexablack.eot');
+    src: url('../../dist/assets/fonts/nexablack.eot?#iefix') format('embedded-opentype'),
+         url('../../dist/assets/fonts/nexablack.woff2') format('woff2'),
+         url('../../dist/assets/fonts/nexablack.woff') format('woff'),
+         url('../../dist/assets/fonts/nexablack.ttf') format('truetype'),
+         url('../../dist/assets/fonts/nexablack.svg#nexa_blackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nexa_boldregular';
+    src: url('../../dist/assets/fonts/nexa-bold.eot');
+    src: url('../../dist/assets/fonts/nexa-bold.eot?#iefix') format('embedded-opentype'),
+         url('../../dist/assets/fonts/nexa-bold.woff2') format('woff2'),
+         url('../../dist/assets/fonts/nexa-bold.woff') format('woff'),
+         url('../../dist/assets/fonts/nexa-bold.ttf') format('truetype'),
+         url('../../dist/assets/fonts/nexa-bold.svg#nexa_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*============= Flaticon ===========*/
+@font-face {
+  font-family: "Flaticon";
+  src: url("../../dist/assets/fonts/flaticon.eot");
+  src: url("../../dist/assets/fonts/flaticon.eot#iefix") format("embedded-opentype"),
+  url("../../dist/assets/fonts/flaticon.woff") format("woff"),
+  url("../../dist/assets/fonts/flaticon.ttf") format("truetype"),
+  url("../../dist/assets/fonts/flaticon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}    

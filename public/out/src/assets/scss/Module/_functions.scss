@@ -1,0 +1,3 @@
+@function static($name){
+  @return 'url("out/dist/assets")' + $name;
+}
