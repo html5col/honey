@@ -9,11 +9,11 @@ var bodyParser = require('body-parser');
 /****hbs section*****/
 var hbs = require('hbs');
 //For convenience, registerPartials provides a quick way to load all partials from a specific directory:
-hbs.registerPartials(__dirname + '/views/partials');
 
 hbs.registerHelper('static',function(name){
   return require('./library/static.js').map(name);
 });
+
 var blocks = {};
 
 //the below extend and block from hbs official site example:https://github.com/donpark/hbs/blob/master/examples/extend/app.js
@@ -34,6 +34,8 @@ hbs.registerHelper('block', function(name) {
   blocks[name] = [];
   return val;
 });
+
+hbs.registerPartials(__dirname + '/views/partials');
 
 /****hbs section****/
 
