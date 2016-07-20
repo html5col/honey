@@ -7,11 +7,14 @@
 
     <title>{{title}}</title>
 	<!-- All css Files Here -->
+      {{{block "stylesheets"}}} <!--for hbs custom style-->
+
       <style>
           .section-padding{
               padding-top:40px!important;
           }
       </style>
+
 	<!-- fonts -->
       <link rel="stylesheet" href="out/trial/css/font.css" />
 <!-- 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,500' rel='stylesheet' type='text/css'> -->
@@ -232,6 +235,8 @@
       </div>
     </div>
   </footer>
-  <!-- Footer-Section-End -->    
+  <!-- Footer-Section-End -->
+
+  {{{block "scripts"}}} <!--for hbs custom js-->
   </body>
 </html>
