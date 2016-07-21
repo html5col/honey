@@ -13,6 +13,17 @@
           .section-padding{
               padding-top:40px!important;
           }
+          .hover-out img.hover-show{
+            display:none;
+          }
+          .hover-out:hover img.hover-show{
+            display: block;
+            position:absolute;
+            left:20px;
+            top:20px;
+            width:auto;
+            height:auto;
+          }
       </style>
 
 	<!-- fonts -->
@@ -54,7 +65,9 @@
                 <!--<li><a href="#"></a></li>-->
                 <!--<li><a href="#"></a></li>-->
                 <!--<li><a href="#"></a></li>-->
-                <li><a href="#"><i class="fa fa-weixin"></i></a></li>
+                <li class="hover-out"><a href="#"><i class="fa fa-weixin"></i></a> <img class="hover-show" src="out/dist/assets/img/wechat_official.jpg"> </li>
+               
+                
               </ul>
               <ul class="social_others">
                 <!--<li><a><i class="fa fa-phone"></i>15257589314</a></li>-->
